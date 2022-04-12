@@ -8,7 +8,7 @@ from PIL import Image
 import PIL
 
 #model
-model= load_model('classify.h5',compile=(False))
+model= load_model('classify.hdf5',compile=(False))
 
 #body and functions of the app
 def creating_frames(name):
